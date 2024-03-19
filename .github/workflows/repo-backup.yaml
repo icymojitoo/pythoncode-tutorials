@@ -2,7 +2,7 @@ name: Mirror repo to S3
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   s3Backup:
     runs-on: ubuntu-latest
